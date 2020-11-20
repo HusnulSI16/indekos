@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Anggita</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../dist/css/adminlte.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+</head>
+<body class="hold-transition sidebar-mini">
+  <div class="wrapper">
+    <!-- Navbar -->
+    <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+
+      <!-- Right navbar links -->
+      <ul class="navbar-nav ml-auto">
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+        </a>
+        <div class="dropdown-divider"></div>
+        <a href="#" class="dropdown-item">
+          <!-- Message Start -->
+          <div class="media">
+            <img src="../dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+          </div>
+          <!-- Message End -->
+        </a>
+      </div>
+    </li>
+    <!-- Notifications Dropdown Menu -->
+    <li class="nav-item">
+      <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
+        <i class="fas fa-th-large"></i>
+      </a>
+    </li>
+  </ul>
+</nav>
+<!-- /.navbar -->
+
+<!-- Main Sidebar Container -->
+<aside class="main-sidebar sidebar-dark-primary elevation-4">
+  <!-- Brand Logo -->
+  <a href="../index3.html" class="brand-link">
+    <img src="../dist/img/AdminLTELogo.png"
+    alt="AdminLTE Logo"
+    class="brand-image img-circle elevation-3"
+    style="opacity: .8">
+    <span class="brand-text font-weight-light">MarKost</span>
+  </a>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <!-- Sidebar user panel (optional) -->
+    <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+      <div class="image">
+        <img src="../dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+      </div>
+      <div class="info">
+        <a href="#" class="d-block">Anggita</a>
+      </div>
+    </div>
+
+    <!-- Sidebar Menu -->
+    <nav class="mt-2">
+      <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+           with font-awesome or any other icon font library -->
+           <li class="nav-item">
+            <a href="pemilik_dashboard.html" class="nav-link">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                Dashboard
+              </p>
+            </a>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-copy"></i>
+              <p>
+                Data Indekos
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="pemilik_kost_tambah.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Tambah Data Indekos</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="pemilik_kost.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Data Indekos</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="pemilik_kost_arsip.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Indekos Diarsipkan</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-user"></i>
+              <p>
+                Profil
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="pemilik_profil.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Kelola Akun</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Logout</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <!-- /.sidebar-menu -->
+</div>
+<!-- /.sidebar -->
+</aside>
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+  <!-- Content Header (Page header) -->
+  <section class="content-header">
+    <div class="container-fluid">
+      <div class="row mb-2">
+        <div class="col-sm-6">
+          <h1>Data Indekos</h1>
+        </div>
+        <div class="col-sm-6">
+          <ol class="breadcrumb float-sm-right">
+            <li class="breadcrumb-item"><a href="pemilik_dashboard.html">Home</a></li>
+            <li class="breadcrumb-item active">Data Indekos</li>
+          </ol>
+        </div>
+      </div>
+    </div><!-- /.container-fluid -->
+  </section>
+
+  <!-- Navbar -->
+
+
+  <section class="content">
+
+    <!-- Default box -->
+    <div class="card card-solid">
+      <div class="card-body pb-0">                     
+        <div class="row d-flex align-items-stretch">
+          <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
+            <div class="card bg-light">
+              <div class="card-header text-muted border-bottom-0">
+                Indekos Putri
+              </div>
+              <div class="card-body pt-0">
+                <div class="row">
+                  <div class="col-7">
+                    <h2 class="lead"><b>Kost Anggrek</b></h2>
+                    <p class="text-muted text-sm"><b>Fasilitas: </b> Kamar Mandi Dalam/Wifi/Ada parkiran</p>
+                    <ul class="ml-4 mb-0 fa-ul text-muted">
+                      <li class="small"><span class="fa-li"><i class="fas fa-lg fa-building"></i></span> Alamat: Jl. Kalimantan 7, Kec. Sumbersari</li>
+                    </ul>
+                  </div>
+                  <div class="col-5 text-center">
+                    <img src="../assets/images/1.jpg" alt="" style="height: 85px;">
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                <div class="text-right">
+                  <a class="btn btn-danger btn-sm" href="#" data-toggle="modal" data-target="#modal-default">
+                    <i class="fas fa-trash"></i> Delete
+                  </a>
+                  <a href="pemilik_kost_edit.html" class="btn btn-sm bg-teal">
+                    <i class="fas fa-pencil-alt"></i>Edit
+                  </a>
+                  <a href="pemilik_kost_detail.html" class="btn btn-sm btn-primary">
+                    <i class="fas fa-folder"></i> View Detail
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
+            <div class="card bg-light">
+              <div class="card-header text-muted border-bottom-0">
+                Indekos Putri
+              </div>
+              <div class="card-body pt-0">
+                <div class="row">
+                  <div class="col-7">
+                    <h2 class="lead"><b>Kost Anggrek</b></h2>
+                    <p class="text-muted text-sm"><b>Fasilitas: </b> Kamar Mandi Dalam/Wifi/Ada parkiran</p>
+                    <ul class="ml-4 mb-0 fa-ul text-muted">
+                      <li class="small"><span class="fa-li"><i class="fas fa-lg fa-building"></i></span> Alamat: Jl. Kalimantan 7, Kec. Sumbersari</li>
+                    </ul>
+                  </div>
+                  <div class="col-5 text-center">
+                    <img src="../assets/images/7.jpg" alt="" style="height: 85px;">
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                <div class="text-right">
+                  <a class="btn btn-danger btn-sm" href="#" data-toggle="modal" data-target="#modal-default">
+                    <i class="fas fa-trash"></i> Delete
+                  </a>
+                  <a href="pemilik_kost_edit.html" class="btn btn-sm bg-teal">
+                    <i class="fas fa-pencil-alt"></i>Edit
+                  </a>
+                  <a href="pemilik_kost_detail.html" class="btn btn-sm btn-primary">
+                    <i class="fas fa-folder"></i> View Detail
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
+            <div class="card bg-light">
+              <div class="card-header text-muted border-bottom-0">
+                Indekos Putri
+              </div>
+              <div class="card-body pt-0">
+                <div class="row">
+                  <div class="col-7">
+                    <h2 class="lead"><b>Kost Anggrek</b></h2>
+                    <p class="text-muted text-sm"><b>Fasilitas: </b> Kamar Mandi Dalam/Wifi/Ada parkiran</p>
+                    <ul class="ml-4 mb-0 fa-ul text-muted">
+                      <li class="small"><span class="fa-li"><i class="fas fa-lg fa-building"></i></span> Alamat: Jl. Kalimantan 7, Kec. Sumbersari</li>
+                    </ul>
+                  </div>
+                  <div class="col-5 text-center">
+                    <img src="../assets/images/2.jpg" alt="" style="height: 85px;">
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                <div class="text-right">
+                  <a class="btn btn-danger btn-sm" href="#" data-toggle="modal" data-target="#modal-default">
+                    <i class="fas fa-trash"></i> Delete
+                  </a>
+                  <a href="pemilik_kost_edit.html" class="btn btn-sm bg-teal">
+                    <i class="fas fa-pencil-alt"></i>Edit
+                  </a>
+                  <a href="pemilik_kost_detail.html" class="btn btn-sm btn-primary">
+                    <i class="fas fa-folder"></i> View Detail
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
+            <div class="card bg-light">
+              <div class="card-header text-muted border-bottom-0">
+                Indekos Putri
+              </div>
+              <div class="card-body pt-0">
+                <div class="row">
+                  <div class="col-7">
+                    <h2 class="lead"><b>Kost Anggrek</b></h2>
+                    <p class="text-muted text-sm"><b>Fasilitas: </b> Kamar Mandi Dalam/Wifi/Ada parkiran</p>
+                    <ul class="ml-4 mb-0 fa-ul text-muted">
+                      <li class="small"><span class="fa-li"><i class="fas fa-lg fa-building"></i></span> Alamat: Jl. Kalimantan 7, Kec. Sumbersari</li>
+                    </ul>
+                  </div>
+                  <div class="col-5 text-center">
+                    <img src="../assets/images/5.jpg" alt="" style="height: 85px;">
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                <div class="text-right">
+                  <a class="btn btn-danger btn-sm" href="#" data-toggle="modal" data-target="#modal-default">
+                    <i class="fas fa-trash"></i> Delete
+                  </a>
+                  <a href="pemilik_kost_edit.html" class="btn btn-sm bg-teal">
+                    <i class="fas fa-pencil-alt"></i>Edit
+                  </a>
+                  <a href="pemilik_kost_detail.html" class="btn btn-sm btn-primary">
+                    <i class="fas fa-folder"></i> View Detail
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
+            <div class="card bg-light">
+              <div class="card-header text-muted border-bottom-0">
+                Indekos Putri
+              </div>
+              <div class="card-body pt-0">
+                <div class="row">
+                  <div class="col-7">
+                    <h2 class="lead"><b>Kost Anggrek</b></h2>
+                    <p class="text-muted text-sm"><b>Fasilitas: </b> Kamar Mandi Dalam/Wifi/Ada parkiran</p>
+                    <ul class="ml-4 mb-0 fa-ul text-muted">
+                    </ul>
+                  </div>
+                  <div class="col-5 text-center">
+                    <img src="../assets/images/2.jpg" alt="" style="height: 85px;">
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                <div class="text-right">
+                  <a class="btn btn-danger btn-sm" href="#" data-toggle="modal" data-target="#modal-default">
+                    <i class="fas fa-trash"></i> Delete
+                  </a>
+                  <a href="pemilik_kost_edit.html" class="btn btn-sm bg-teal">
+                    <i class="fas fa-pencil-alt"></i>Edit
+                  </a>
+                  <a href="pemilik_kost_detail.html" class="btn btn-sm btn-primary">
+                    <i class="fas fa-folder"></i> View Detail
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
+            <div class="card bg-light">
+              <div class="card-header text-muted border-bottom-0">
+                Indekos Putri
+              </div>
+              <div class="card-body pt-0">
+                <div class="row">
+                  <div class="col-7">
+                    <h2 class="lead"><b>Kost Anggrek</b></h2>
+                    <p class="text-muted text-sm"><b>Fasilitas: </b> Kamar Mandi Dalam/Wifi/Ada parkiran</p>
+                    <ul class="ml-4 mb-0 fa-ul text-muted">
+                      <li class="small"><span class="fa-li"><i class="fas fa-lg fa-building"></i></span> Alamat: Jl. Kalimantan 7, Kec. Sumbersari</li>
+                    </ul>
+                  </div>
+                  <div class="col-5 text-center">
+                    <img src="../assets/images/2.jpg" alt="" style="height: 85px;">
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                <div class="text-right">
+                  <a class="btn btn-danger btn-sm" href="#" data-toggle="modal" data-target="#modal-default">
+                    <i class="fas fa-trash"></i> Delete
+                  </a>
+                  <a href="pemilik_kost_edit.html" class="btn btn-sm bg-teal">
+                    <i class="fas fa-pencil-alt"></i>Edit
+                  </a>
+                  <a href="pemilik_kost_detail.html" class="btn btn-sm btn-primary">
+                    <i class="fas fa-folder"></i> View Detail
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
+            <div class="card bg-light">
+              <div class="card-header text-muted border-bottom-0">
+                Indekos Putri
+              </div>
+              <div class="card-body pt-0">
+                <div class="row">
+                  <div class="col-7">
+                    <h2 class="lead"><b>Kost Anggrek</b></h2>
+                    <p class="text-muted text-sm"><b>Fasilitas: </b> Kamar Mandi Dalam/Wifi/Ada parkiran</p>
+                    <ul class="ml-4 mb-0 fa-ul text-muted">
+                      <li class="small"><span class="fa-li"><i class="fas fa-lg fa-building"></i></span> Alamat: Jl. Kalimantan 7, Kec. Sumbersari</li>
+                    </ul>
+                  </div>
+                  <div class="col-5 text-center">
+                    <img src="../assets/images/2.jpg" alt="" style="height: 85px;">
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                <div class="text-right">
+                  <a class="btn btn-danger btn-sm" href="#" data-toggle="modal" data-target="#modal-default">
+                    <i class="fas fa-trash"></i> Delete
+                  </a>
+                  <a href="pemilik_kost_edit.html" class="btn btn-sm bg-teal">
+                    <i class="fas fa-pencil-alt"></i>Edit
+                  </a>
+                  <a href="pemilik_kost_detail.html" class="btn btn-sm btn-primary">
+                    <i class="fas fa-folder"></i> View Detail
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
+            <div class="card bg-light">
+              <div class="card-header text-muted border-bottom-0">
+                Indekos Putri
+              </div>
+              <div class="card-body pt-0">
+                <div class="row">
+                  <div class="col-7">
+                    <h2 class="lead"><b>Kost Anggrek</b></h2>
+                    <p class="text-muted text-sm"><b>Fasilitas: </b> Kamar Mandi Dalam/Wifi/Ada parkiran</p>
+                    <ul class="ml-4 mb-0 fa-ul text-muted">
+                      <li class="small"><span class="fa-li"><i class="fas fa-lg fa-building"></i></span> Alamat: Jl. Kalimantan 7, Kec. Sumbersari</li>
+                    </ul>
+                  </div>
+                  <div class="col-5 text-center">
+                    <img src="../assets/images/2.jpg" alt="" style="height: 85px;">
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                <div class="text-right">
+                  <a class="btn btn-danger btn-sm" href="#" data-toggle="modal" data-target="#modal-default">
+                    <i class="fas fa-trash"></i> Delete
+                  </a>
+                  <a href="pemilik_kost_edit.html" class="btn btn-sm bg-teal">
+                    <i class="fas fa-pencil-alt"></i>Edit
+                  </a>
+                  <a href="pemilik_kost_detail.html" class="btn btn-sm btn-primary">
+                    <i class="fas fa-folder"></i> View Detail
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
+            <div class="card bg-light">
+              <div class="card-header text-muted border-bottom-0">
+                Indekos Putri
+              </div>
+              <div class="card-body pt-0">
+                <div class="row">
+                  <div class="col-7">
+                    <h2 class="lead"><b>Kost Anggrek</b></h2>
+                    <p class="text-muted text-sm"><b>Fasilitas: </b> Kamar Mandi Dalam/Wifi/Ada parkiran</p>
+                    <ul class="ml-4 mb-0 fa-ul text-muted">
+                      <li class="small"><span class="fa-li"><i class="fas fa-lg fa-building"></i></span> Alamat: Jl. Kalimantan 7, Kec. Sumbersari</li>
+                    </ul>
+                  </div>
+                  <div class="col-5 text-center">
+                    <img src="../assets/images/5.jpg" alt="" style="height: 85px;">
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                <div class="text-right">
+                  <a class="btn btn-danger btn-sm" href="#" data-toggle="modal" data-target="#modal-default">
+                    <i class="fas fa-trash"></i> Delete
+                  </a>
+                  <a href="pemilik_kost_edit.html" class="btn btn-sm bg-teal">
+                    <i class="fas fa-pencil-alt"></i>Edit
+                  </a>
+                  <a href="pemilik_kost_detail.html" class="btn btn-sm btn-primary">
+                    <i class="fas fa-folder"></i> View Detail
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.card-body -->
+      <div class="card-footer">
+        <nav aria-label="Contacts Page Navigation">
+          <ul class="pagination justify-content-center m-0">
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+            <li class="page-item"><a class="page-link" href="#">6</a></li>
+            <li class="page-item"><a class="page-link" href="#">7</a></li>
+            <li class="page-item"><a class="page-link" href="#">8</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- /.card-footer -->
+    </div>
+    <!-- /.card -->
+
+  </section>
+
+
+  <div class="modal fade" id="modal-default">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Peringatan!</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Apakah Anda Yakin Ingin Menghapus Data Ini?&hellip;</p>
+        </div>
+        <div class="modal-footer justify-content-between">
+          <button type="button" class="btn btn-primary">Ok</button>
+        </div>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+  </div>
+
+</div>
+<!-- /.card -->
+<!-- /.content -->
+
+<!-- /.content-wrapper -->
+</div>
+<footer class="main-footer">
+  <strong>Copyright &copy; 2020 <a href="http://markost.io">MarKost.io</a>.</strong> All rights
+  reserved.
+</footer>
+
+<!-- Control Sidebar -->
+<aside class="control-sidebar control-sidebar-dark">
+  <!-- Control sidebar content goes here -->
+</aside>
+<!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="../plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- jQuery UI -->
+<script src="../plugins/jquery-ui/jquery-ui.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="../dist/js/demo.js"></script>
+<!-- fullCalendar 2.2.5 -->
+<script src="../plugins/moment/moment.min.js"></script>
+<script src="../plugins/fullcalendar/main.min.js"></script>
+<script src="../plugins/fullcalendar-daygrid/main.min.js"></script>
+<script src="../plugins/fullcalendar-timegrid/main.min.js"></script>
+<script src="../plugins/fullcalendar-interaction/main.min.js"></script>
+<script src="../plugins/fullcalendar-bootstrap/main.min.js"></script>
+</body>
+</html>
