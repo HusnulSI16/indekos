@@ -26,7 +26,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item">
-            <a href="admin_dashboard.html" class="nav-link">
+            <a href="<?= base_url()?>admin/dashboard" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
@@ -43,13 +43,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="admin_user_validasi.html" class="nav-link">
+                <a href="<?= base_url()?>admin/dashboard/validasi" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>User Validasi</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="admin_user.html" class="nav-link">
+                <a href="<?= base_url()?>admin/dashboard/datauser" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Data User</p>
                 </a>

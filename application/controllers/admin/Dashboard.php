@@ -22,4 +22,10 @@ class Dashboard extends CI_Controller {
 	{
 		$this->load->view('admin/dashboard');
 	}
+	public function validasi(){
+		$this->load->view('admin/admin_user_validasi');
+	}
+	public function datauser(){
+		$this->load->view('admin/admin_user');
+	}
 }
