@@ -25,21 +25,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 
           <!-- SEARCH FORM -->
-          <form class="form-inline ml-0 ml-md-3">
-            <div class="input-group input-group-sm">
-              <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
-              <div class="input-group-append">
-                <button class="btn btn-navbar" type="submit">
-                  <i class="fas fa-search"></i>
-                </button>
-              </div>
-            </div>
-          </form>
+         
 
           <ul class="navbar-nav ml-auto">
             <!-- Messages Dropdown Menu -->
             <li class="nav-item d-none d-sm-inline-block">
-              <a href="user_login.html" class="nav-link">Sign In</a>
+              <a href="daftar" class="nav-link">Daftar</a>
             </li>
           </ul>
         </div>
@@ -57,8 +48,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <img  src="<?= base_url();?>assets/assets/images/1.jpg" alt="First slide" class="w-100">
                 <div class="carousel-caption">
                   <h2 data-animation="animated fadeInRight"><span>MarKost</span></h2>
-                  <h2 data-animation="animated fadeInRight"><span>Boarding Recommendations</span></h2>
-                  <a href="#!" class="carousel-item-link" data-animation="animated fadeInRight">EXPLORE PROJECT</a>
+                  <h2 data-animation="animated fadeInRight"><span>Kost Recommendations</span></h2>
+                  <a href="login" class="carousel-item-link" data-animation="animated fadeInRight">Login to Findout</a>
                 </div>
               </div>
               <div class="carousel-item">
@@ -66,7 +57,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <div class="carousel-caption">
                   <h2 data-animation="animated fadeInRight"><span>MarKost</span></h2>
                   <h2 data-animation="animated fadeInRight"><span>Fast Solution</span></h2>
-                  <a href="#!" class="carousel-item-link" data-animation="animated fadeInRight">EXPLORE PROJECT</a>
+                  <a href="#!" class="carousel-item-link" data-animation="animated fadeInRight">Login to Findout</a>
                 </div>
               </div>
               <div class="carousel-item">
@@ -74,7 +65,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <div class="carousel-caption">
                   <h2 data-animation="animated fadeInRight"><span>MarKost</span></h2>
                   <h2 data-animation="animated fadeInRight"><span>The Best Choice</span></h2>
-                  <a href="#!" class="carousel-item-link" data-animation="animated fadeInRight">EXPLORE PROJECT</a>
+                  <a href="#!" class="carousel-item-link" data-animation="animated fadeInRight">Login to Findout</a>
                 </div>
               </div>
               <div class="carousel-item">
@@ -82,164 +73,16 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <div class="carousel-caption">
                   <h2 data-animation="animated fadeInRight"><span>MarKost</span></h2>
                   <h2 data-animation="animated fadeInRight"><span>Digital agency</span></h2>
-                  <a href="#!" class="carousel-item-link" data-animation="animated fadeInRight">EXPLORE PROJECT</a>
+                  <a href="#!" class="carousel-item-link" data-animation="animated fadeInRight">Login to Findout</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="oleez-landing-section oleez-landing-section-about">
-        <div class="container">
-          <div class="oleez-landing-section-content">
-            <div class="oleez-landing-section-verticals wow fadeIn">
-              <span class="number">01</span> <img  src="<?= base_url();?>assets/assets/images/client/Logo_2.svg" alt="ollez" height="12px">
-            </div>
-            <div class="row landing-about-content wow fadeInUp">
-              <div class="col-md-6">
-                <h2>We help and solve your problem.</h2>
-              </div>
-              <div class="col-md-6">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio corporis delectus dolorem possimus, dolor rerum.</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-4 landing-about-feature wow fadeInUp">
-                <img  src="<?= base_url();?>assets/assets/images/icon_1.svg" alt="document" class="about-feature-icon">
-                <h5 class="about-feature-title">Boarding Research</h5>
-                <p class="about-feature-description">Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
-              </div>
-              <div class="col-md-4 landing-about-feature wow fadeInUp">
-                <img  src="<?= base_url();?>assets/assets/images/icon_2.svg" alt="document" class="about-feature-icon">
-                <h5 class="about-feature-title">According To The Needs</h5>
-                <p class="about-feature-description">Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
-              </div>
-              <div class="col-md-4 landing-about-feature wow fadeInUp">
-                <img  src="<?= base_url();?>assets/assets/images/icon_3.svg" alt="document" class="about-feature-icon">
-                <h5 class="about-feature-title">Provide Convenience</h5>
-                <p class="about-feature-description">Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="oleez-landing-section oleez-landing-section-projects">
-        <div class="container">
-          <div class="oleez-landing-section-content">
-            <div class="oleez-landing-section-verticals wow fadeIn">
-              <span class="number">02</span> <img  src="<?= base_url();?>assets/assets/images/client/Logo_2.svg" alt="oleez" height="12px">
-            </div>
-            <div class="landing-projects-carousel wow fadeIn">
-              <div class="card landing-project-card">
-                <img  src="<?= base_url();?>assets/assets/images/5.jpg" class="card-img" alt="Project 1">
-                <div class="card-img-overlay">
-                  <h6 class="project-category">Branding</h6>
-                  <h5 class="project-title">Indekos In Jember</h5>
-                </div>
-              </div>
-              <div class="card landing-project-card">
-                <img  src="<?= base_url();?>assets/assets/images/6.jpg" class="card-img" alt="Project 1">
-                <div class="card-img-overlay">
-                  <h6 class="project-category">Branding</h6>
-                  <h5 class="project-title">Indekos In Jember</h5>
-                </div>
-              </div>
-              <div class="card landing-project-card">
-                <img  src="<?= base_url();?>assets/assets/images/7.jpg" class="card-img" alt="Project 1">
-                <div class="card-img-overlay">
-                  <h6 class="project-category">Branding</h6>
-                  <h5 class="project-title">Indekos In Jember</h5>
-                </div>
-              </div>
-              <div class="card landing-project-card">
-                <img  src="<?= base_url();?>assets/assets/images/8.jpg" class="card-img" alt="Project 1">
-                <div class="card-img-overlay">
-                  <h6 class="project-category">Branding</h6>
-                  <h5 class="project-title">Indekos In Jember</h5>
-                </div>
-              </div>
-            </div>
-            <div class="slick-navbtn-wrapper">
-            </div>
-          </div>
-        </section>
-        <section class="oleez-landing-section oleez-landing-section-team">
-          <div class="container">
-            <div class="oleez-landing-section-content">
-              <div class="oleez-landing-section-verticals wow fadeIn">
-                <span class="number">03</span> <img  src="<?= base_url();?>assets/assets/images/client/Logo_2.svg" alt="ollez" height="12px">
-              </div>
-              <div class="row landing-team-content wow fadeInUp">
-                <div class="col-md-6">
-                  <h2 class="section-title">Meet The Team <br> Our Professionals</h2>
-                </div>
-                <div class="col-md-6">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio corporis delectus dolorem possimus, dolor rerum.</p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-4 mb-5 mb-md-0 landing-team-card wow flipInY">
-                  <img  src="<?= base_url();?>assets/assets/images/avatar.png" alt="Team Member" class="team-card-img">
-                  <h5 class="team-card-name">Siri Jakobsson</h5>
-                  <p class="team-card-job">Web Developer</p>
-                </div>
-                <div class="col-md-4 mb-5 mb-md-0 landing-team-card wow flipInY">
-                  <img  src="<?= base_url();?>assets/assets/images/avatar2.png" alt="Team Member" class="team-card-img">
-                  <h5 class="team-card-name">Arend Pellewever</h5>
-                  <p class="team-card-job">Founder</p>
-                </div>
-                <div class="col-md-4 mb-5 mb-md-0 landing-team-card wow flipInY">
-                  <img  src="<?= base_url();?>assets/assets/images/avatar3.png" alt="Team Member" class="team-card-img">
-                  <h5 class="team-card-name">Antokolskiy</h5>
-                  <p class="team-card-job">Web Developer</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="oleez-landing-section oleez-landing-section-client">
-          <div class="container">
-            <div class="oleez-landing-section-content">
-              <div class="oleez-landing-section-verticals wow fadeIn">
-                <span class="number">04</span> <img  src="<?= base_url();?>assets/assets/images/client/Logo_2.svg" alt="ollez" height="12px">
-              </div>
-              <h2 class="section-title mb-1 wow fadeInUp">Partners & clients</h2>
-              <p class="client-section-subtitle">We’re constantly refining our product. Adding new features. Working to help your business grow.</p>
-              <div class="row">
-                <div class="col-md-4 client-logo-wrapper wow flipInX">
-                  <div class="client-logo">
-                    <img  src="<?= base_url();?>assets/assets/images/client/client_1@1x.png" alt="client" height="50px">
-                  </div>
-                </div>
-                <div class="col-md-4 client-logo-wrapper wow flipInX">
-                  <div class="client-logo">
-                    <img  src="<?= base_url();?>assets/assets/images/client/client_2.png" alt="client" height="50px">
-                  </div>
-                </div>
-                <div class="col-md-4 client-logo-wrapper wow flipInX">
-                  <div class="client-logo">
-                    <img  src="<?= base_url();?>assets/assets/images/client/client_1.png" alt="client" height="50px">
-                  </div>
-                </div>
-                <div class="col-md-4 client-logo-wrapper wow flipInX">
-                  <div class="client-logo">
-                    <img  src="<?= base_url();?>assets/assets/images/client/client_2@1x.png" alt="client" height="50px">
-                  </div>
-                </div>
-                <div class="col-md-4 client-logo-wrapper wow flipInX">
-                  <div class="client-logo">
-                    <img  src="<?= base_url();?>assets/assets/images/client/client_3.png" alt="client" height="50px">
-                  </div>
-                </div>
-                <div class="col-md-4 client-logo-wrapper wow flipInX">
-                  <div class="client-logo">
-                    <img  src="<?= base_url();?>assets/assets/images/client/client_3@1x.png" alt="client" height="50px">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+ 
+       
+      
       </main>
 
       <footer class="oleez-footer wow fadeInUp">

@@ -28,4 +28,7 @@ class Dashboard extends CI_Controller {
 	public function datauser(){
 		$this->load->view('admin/admin_user');
 	}
+	public function dataindekos(){
+		$this->load->view('admin/data_indekos');
+	}
 }
