@@ -17,10 +17,10 @@
          <form action="login" method="post" class="form-wrap">
 
            <div class="form-group">
-             <input type="text" name="username" class="form-control" placeholder="Username">
+             <input type="text" name="username" class="form-control" placeholder="Username" required="">
            </div>
            <div class="form-group">
-             <input type="password" name="password" class="form-control" placeholder="password">
+             <input type="password" name="password" class="form-control" placeholder="password" required="">
            </div>
            <input type="submit" name="submit" class="btn btn-primary" value="Login">
          </form>

@@ -49,7 +49,7 @@
             <div class="card-body">
               <div class="form-group">
                 <label for="inputName">Nama Indekos</label>
-                <input type="text" id="inputName" class="form-control" name="namakos">
+                <input type="text" id="inputName" class="form-control" name="namakos" required="">
               </div>
               <div class="form-group">
                 <label for="inputName">Jenis Indekos</label>
@@ -64,7 +64,7 @@
               </div>
               <div class="form-group">
                 <label for="inputName">Alamat Indekos</label>
-                <input type="text" id="inputName" class="form-control" name="alamat"> 
+                <input type="text" id="inputName" class="form-control" name="alamat" required=""> 
               </div>
 
               <div class="form-group">
@@ -232,7 +232,7 @@
         </div>
         <div class="row">
           <div class="col-12">
-            <input type="submit" value="Create new Data" class="btn btn-success float-right" name="submit">
+            <input type="submit" value="Simpan" class="btn btn-success float-right" name="submit">
           </div>
      <?php echo form_close(); ?>
         </div><br>

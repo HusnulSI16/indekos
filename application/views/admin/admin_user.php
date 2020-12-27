@@ -6,59 +6,68 @@
 <body class="hold-transition sidebar-mini">
   <div class="wrapper">
     <!-- Navbar -->
- <?php $this->load->view("admin/_partials/navbar.php");?>
-<!-- /.navbar -->
+    <?php $this->load->view("admin/_partials/navbar.php");?>
+    <!-- /.navbar -->
 
-<!-- Main Sidebar Container -->
-<?php $this->load->view("admin/_partials/sidebar.php");?>
+    <!-- Main Sidebar Container -->
+    <?php $this->load->view("admin/_partials/sidebar.php");?>
 
-  <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <section class="content-header">
-      <div class="container-fluid">
-        <div class="row mb-2">
-          <div class="col-sm-6">
-            <h1>Data User</h1>
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+      <!-- Content Header (Page header) -->
+      <section class="content-header">
+        <div class="container-fluid">
+          <div class="row mb-2">
+            <div class="col-sm-6">
+              <h1>Data User</h1>
+            </div>
+            <div class="col-sm-6">
+              <ol class="breadcrumb float-sm-right">
+                <li class="breadcrumb-item"><a href="admin_dashboard.html">Dashboard</a></li>
+                <li class="breadcrumb-item active">Data User</li>
+              </ol>
+            </div>
           </div>
-          <div class="col-sm-6">
-            <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="admin_dashboard.html">Dashboard</a></li>
-              <li class="breadcrumb-item active">Data User</li>
-            </ol>
-          </div>
-        </div>
-      </div><!-- /.container-fluid -->
-    </section>
+        </div><!-- /.container-fluid -->
+      </section>
 
 
-    <!-- Main content -->
-    <section class="content">
-      <div class="container-fluid">
-        <div class="card">
-         <!-- /.row -->
-         <div class="row">
-          <div class="col-12">
-            <div class="card">
-              <!-- /.card-header -->
-              <div class="card-body table-responsive p-0"">
-                <table class="table table-head-fixed text-nowrap">
-                  <thead>
-                    <tr>
-                      <th>ID User</th>
-                      <th>Nama</th>
-                      <th>email</th>
-                      <th>Password</th>
-                      <th>Type User</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>1</td>
-                      <td>Admin</td>
-                      <td>admin@gmail.com</td>
-                      <td>admin</td>
-                      <td>Admin</td>
+      <!-- Main content -->
+      <section class="content">
+        <div class="container-fluid">
+          <div class="card">
+           <!-- /.row -->
+           <div class="row">
+            <div class="col-12">
+              <div class="card">
+                <!-- /.card-header -->
+                <div class="card-body table-responsive p-0"">
+                  <table class="table table-head-fixed text-nowrap">
+                    <thead>
+                      <tr>
+                        <th>ID User</th>
+                        <th>Nama</th>
+                        <th>email</th>
+                        <th>Password</th>
+                        <th>Type User</th>
+                        <th>Aksi</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Admin</td>
+                        <td>admin@gmail.com</td>
+                        <td>admin</td>
+                        <td>Admin</td>
+                        <td>
+                          <a class="btn btn-sm bg-teal" href="#">
+                            <i class="fas fa-pencil-alt">
+                            </i>
+                            Detail
+                          </a>
+                        </td>
+                      </tr>
                     </tr>
                     <tr>
                       <td>2</td>
@@ -66,6 +75,7 @@
                       <td>dawina@gmail.com</td>
                       <td>sdfgh</td>
                       <td>Pemilik Indekos</td>
+                      <td></td>
                     </tr>
                     <tr>
                       <td>3</td>

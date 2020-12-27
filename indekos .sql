@@ -285,8 +285,10 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id_user`, `nama_user`, `email_user`, `password`, `level`, `telepon`) VALUES
+(0, 'admin', 'admin@mail.com', 'admin', '0', '0')
 (1, 'husnul', 'husnul@mail.com', '1234', '2', '089757745546'),
 (2, 'husen', 'husen@mail.com', '1234', '1', '0898076986');
+
 
 -- --------------------------------------------------------
 

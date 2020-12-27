@@ -24,7 +24,7 @@
                         <label class="control-label" for="name-input-field">Name </label>
                     </div>
                     <div class="col-sm-6 input-column">
-                        <input class="form-control" type="text" name="nama_user">
+                        <input class="form-control" type="text" name="nama_user" required="">
                     </div>
                 </div>
                 <div class="form-group">
@@ -32,7 +32,7 @@
                         <label class="control-label" for="email-input-field">Email </label>
                     </div>
                     <div class="col-sm-6 input-column">
-                        <input class="form-control" type="email" name="email_user">
+                        <input class="form-control" type="email" name="email_user" required="">
                     </div>
                 </div>
                    <div class="form-group">
@@ -40,7 +40,7 @@
                         <label class="control-label" for="email-input-field">HP/Telepon </label>
                     </div>
                     <div class="col-sm-6 input-column">
-                        <input class="form-control" type="number" name="telepon">
+                        <input class="form-control" type="number" name="telepon" required="">
                     </div>
                 </div>
                 <div class="form-group">
@@ -48,7 +48,7 @@
                         <label class="control-label" for="pawssword-input-field">Password </label>
                     </div>
                     <div class="col-sm-6 input-column">
-                        <input class="form-control" type="password" name="password">
+                        <input class="form-control" type="password" name="password" required="">
                     </div>
                 </div>
                 <div class="form-group">
@@ -56,7 +56,7 @@
                         <label class="control-label" for="repeat-pawssword-input-field">Repeat Password </label>
                     </div>
                     <div class="col-sm-6 input-column">
-                        <input class="form-control" type="password">
+                        <input class="form-control" type="password" required="">
                     </div>
                 </div>
                 <div class="form-group">
